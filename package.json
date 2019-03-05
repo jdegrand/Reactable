@@ -1,0 +1,28 @@
+{
+  "name": "reactable",
+  "version": "1.0.0",
+  "description": "My attempt at a React Application",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdegrand/Reactable.git"
+  },
+  "author": "Joe DeGrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdegrand/Reactable/issues"
+  },
+  "homepage": "https://github.com/jdegrand/Reactable#readme"
+}
